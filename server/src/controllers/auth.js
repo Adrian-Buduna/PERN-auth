@@ -72,7 +72,7 @@ exports.protected = async (req, res) => {
 exports.logout = async (req, res) => {
   try {    return res.status(200).clearCookie("token",  { httpOnly: true }).json({
     success: true,
-    message: "Logged out in succefully",
+    message: "Logged out succefully",
   });
 } catch (error) {
     console.log(error.message);

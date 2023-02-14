@@ -1,4 +1,3 @@
-
 const { validationResult } = require('express-validator')
 
 exports.validationMiddleware = (req, res, next) => {

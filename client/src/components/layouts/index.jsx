@@ -5,7 +5,7 @@ const index = ({ children }) => {
     return (
         <div className="flex flex-col items-center max-w-full font-poppins  ">
 
-            <header className="flex flex-col justify-center items-center w-full bg-rose-600 border-b-2 border-rose-700 h-24">
+            <header className="flex flex-col justify-center items-center w-full bg-blue-600 border-b-2 border-blue-700 h-24">
                 <Navbar />
             </header>
 

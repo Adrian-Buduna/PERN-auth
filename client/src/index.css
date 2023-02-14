@@ -4,7 +4,7 @@ body{
 /* Scrollbar  */
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 10px; 
     height: 16px;
   }
   /* Track */
@@ -14,13 +14,14 @@ body{
   }
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: #E11D48;
+    background: #123fa0;
     border-radius: 100vh;
-    border: 2px solid #BE123C;
+    border: 2px solid 374151;
   }
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background: #e69bdf;
+    background: #4978dd;
+    cursor: pointer;
   }
 @tailwind base;
 @tailwind components;
